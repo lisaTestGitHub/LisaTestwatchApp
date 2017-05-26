@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42077C481ED8E30C00FF8575 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42077C471ED8E30C00FF8575 /* ShareViewController.m */; };
+		42077C4B1ED8E30C00FF8575 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42077C491ED8E30C00FF8575 /* MainInterface.storyboard */; };
+		42077C4F1ED8E30C00FF8575 /* LisaShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42077C441ED8E30B00FF8575 /* LisaShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42077C5C1ED8E36A00FF8575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42077C5B1ED8E36A00FF8575 /* AppDelegate.m */; };
+		42077C5E1ED8E36A00FF8575 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 42077C5D1ED8E36A00FF8575 /* art.scnassets */; };
+		42077C611ED8E36A00FF8575 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42077C601ED8E36A00FF8575 /* GameViewController.m */; };
+		42077C641ED8E36A00FF8575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42077C621ED8E36A00FF8575 /* Main.storyboard */; };
+		42077C661ED8E36A00FF8575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42077C651ED8E36A00FF8575 /* Assets.xcassets */; };
+		42077C691ED8E36A00FF8575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42077C681ED8E36A00FF8575 /* main.m */; };
+		42077C731ED8E36B00FF8575 /* LisaTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42077C721ED8E36B00FF8575 /* LisaTVTests.m */; };
+		42077C7E1ED8E36B00FF8575 /* LisaTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42077C7D1ED8E36B00FF8575 /* LisaTVUITests.m */; };
 		42809DA41ED2590900AD14F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42809DA31ED2590900AD14F4 /* AppDelegate.m */; };
 		42809DA71ED2590900AD14F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42809DA61ED2590900AD14F4 /* ViewController.m */; };
 		42809DAA1ED2590900AD14F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42809DA81ED2590900AD14F4 /* Main.storyboard */; };
@@ -26,6 +37,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		42077C4D1ED8E30C00FF8575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42809D971ED2590900AD14F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42077C431ED8E30B00FF8575;
+			remoteInfo = LisaShare;
+		};
+		42077C6F1ED8E36B00FF8575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42809D971ED2590900AD14F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42077C571ED8E36A00FF8575;
+			remoteInfo = LisaTV;
+		};
+		42077C7A1ED8E36B00FF8575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42809D971ED2590900AD14F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42077C571ED8E36A00FF8575;
+			remoteInfo = LisaTV;
+		};
 		42809DB81ED2590900AD14F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 42809D971ED2590900AD14F4 /* Project object */;
@@ -57,6 +89,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		42077C531ED8E30C00FF8575 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42077C4F1ED8E30C00FF8575 /* LisaShare.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42809DF11ED2590A00AD14F4 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,6 +125,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42077C441ED8E30B00FF8575 /* LisaShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LisaShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		42077C461ED8E30C00FF8575 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		42077C471ED8E30C00FF8575 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		42077C4A1ED8E30C00FF8575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		42077C4C1ED8E30C00FF8575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42077C581ED8E36A00FF8575 /* LisaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42077C5A1ED8E36A00FF8575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42077C5B1ED8E36A00FF8575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42077C5D1ED8E36A00FF8575 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		42077C5F1ED8E36A00FF8575 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		42077C601ED8E36A00FF8575 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		42077C631ED8E36A00FF8575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42077C651ED8E36A00FF8575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42077C671ED8E36A00FF8575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42077C681ED8E36A00FF8575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42077C6E1ED8E36B00FF8575 /* LisaTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisaTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42077C721ED8E36B00FF8575 /* LisaTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisaTVTests.m; sourceTree = "<group>"; };
+		42077C741ED8E36B00FF8575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42077C791ED8E36B00FF8575 /* LisaTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisaTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42077C7D1ED8E36B00FF8575 /* LisaTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisaTVUITests.m; sourceTree = "<group>"; };
+		42077C7F1ED8E36B00FF8575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42809D9F1ED2590900AD14F4 /* watchOJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchOJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42809DA21ED2590900AD14F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42809DA31ED2590900AD14F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +179,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		42077C411ED8E30B00FF8575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C551ED8E36A00FF8575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C6B1ED8E36B00FF8575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C761ED8E36B00FF8575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42809D9C1ED2590900AD14F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +238,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42077C451ED8E30C00FF8575 /* LisaShare */ = {
+			isa = PBXGroup;
+			children = (
+				42077C461ED8E30C00FF8575 /* ShareViewController.h */,
+				42077C471ED8E30C00FF8575 /* ShareViewController.m */,
+				42077C491ED8E30C00FF8575 /* MainInterface.storyboard */,
+				42077C4C1ED8E30C00FF8575 /* Info.plist */,
+			);
+			path = LisaShare;
+			sourceTree = "<group>";
+		};
+		42077C591ED8E36A00FF8575 /* LisaTV */ = {
+			isa = PBXGroup;
+			children = (
+				42077C5A1ED8E36A00FF8575 /* AppDelegate.h */,
+				42077C5B1ED8E36A00FF8575 /* AppDelegate.m */,
+				42077C5D1ED8E36A00FF8575 /* art.scnassets */,
+				42077C5F1ED8E36A00FF8575 /* GameViewController.h */,
+				42077C601ED8E36A00FF8575 /* GameViewController.m */,
+				42077C621ED8E36A00FF8575 /* Main.storyboard */,
+				42077C651ED8E36A00FF8575 /* Assets.xcassets */,
+				42077C671ED8E36A00FF8575 /* Info.plist */,
+				42077C681ED8E36A00FF8575 /* main.m */,
+			);
+			path = LisaTV;
+			sourceTree = "<group>";
+		};
+		42077C711ED8E36B00FF8575 /* LisaTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				42077C721ED8E36B00FF8575 /* LisaTVTests.m */,
+				42077C741ED8E36B00FF8575 /* Info.plist */,
+			);
+			path = LisaTVTests;
+			sourceTree = "<group>";
+		};
+		42077C7C1ED8E36B00FF8575 /* LisaTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42077C7D1ED8E36B00FF8575 /* LisaTVUITests.m */,
+				42077C7F1ED8E36B00FF8575 /* Info.plist */,
+			);
+			path = LisaTVUITests;
+			sourceTree = "<group>";
+		};
 		42809D961ED2590900AD14F4 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +291,10 @@
 				42809DC51ED2590900AD14F4 /* watchOJUITests */,
 				42809DCF1ED2590900AD14F4 /* watchOJ WatchKit App */,
 				42809DDE1ED2590A00AD14F4 /* watchOJ WatchKit Extension */,
+				42077C451ED8E30C00FF8575 /* LisaShare */,
+				42077C591ED8E36A00FF8575 /* LisaTV */,
+				42077C711ED8E36B00FF8575 /* LisaTVTests */,
+				42077C7C1ED8E36B00FF8575 /* LisaTVUITests */,
 				42809DA01ED2590900AD14F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,6 +307,10 @@
 				42809DC21ED2590900AD14F4 /* watchOJUITests.xctest */,
 				42809DCB1ED2590900AD14F4 /* watchOJ WatchKit App.app */,
 				42809DDA1ED2590A00AD14F4 /* watchOJ WatchKit Extension.appex */,
+				42077C441ED8E30B00FF8575 /* LisaShare.appex */,
+				42077C581ED8E36A00FF8575 /* LisaTV.app */,
+				42077C6E1ED8E36B00FF8575 /* LisaTVTests.xctest */,
+				42077C791ED8E36B00FF8575 /* LisaTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,6 +378,76 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		42077C431ED8E30B00FF8575 /* LisaShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42077C521ED8E30C00FF8575 /* Build configuration list for PBXNativeTarget "LisaShare" */;
+			buildPhases = (
+				42077C401ED8E30B00FF8575 /* Sources */,
+				42077C411ED8E30B00FF8575 /* Frameworks */,
+				42077C421ED8E30B00FF8575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LisaShare;
+			productName = LisaShare;
+			productReference = 42077C441ED8E30B00FF8575 /* LisaShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		42077C571ED8E36A00FF8575 /* LisaTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42077C801ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTV" */;
+			buildPhases = (
+				42077C541ED8E36A00FF8575 /* Sources */,
+				42077C551ED8E36A00FF8575 /* Frameworks */,
+				42077C561ED8E36A00FF8575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LisaTV;
+			productName = LisaTV;
+			productReference = 42077C581ED8E36A00FF8575 /* LisaTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42077C6D1ED8E36B00FF8575 /* LisaTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42077C831ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTVTests" */;
+			buildPhases = (
+				42077C6A1ED8E36B00FF8575 /* Sources */,
+				42077C6B1ED8E36B00FF8575 /* Frameworks */,
+				42077C6C1ED8E36B00FF8575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42077C701ED8E36B00FF8575 /* PBXTargetDependency */,
+			);
+			name = LisaTVTests;
+			productName = LisaTVTests;
+			productReference = 42077C6E1ED8E36B00FF8575 /* LisaTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42077C781ED8E36B00FF8575 /* LisaTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42077C861ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTVUITests" */;
+			buildPhases = (
+				42077C751ED8E36B00FF8575 /* Sources */,
+				42077C761ED8E36B00FF8575 /* Frameworks */,
+				42077C771ED8E36B00FF8575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42077C7B1ED8E36B00FF8575 /* PBXTargetDependency */,
+			);
+			name = LisaTVUITests;
+			productName = LisaTVUITests;
+			productReference = 42077C791ED8E36B00FF8575 /* LisaTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		42809D9E1ED2590900AD14F4 /* watchOJ */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42809DF61ED2590A00AD14F4 /* Build configuration list for PBXNativeTarget "watchOJ" */;
@@ -241,11 +456,13 @@
 				42809D9C1ED2590900AD14F4 /* Frameworks */,
 				42809D9D1ED2590900AD14F4 /* Resources */,
 				42809DF51ED2590A00AD14F4 /* Embed Watch Content */,
+				42077C531ED8E30C00FF8575 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				42809DCE1ED2590900AD14F4 /* PBXTargetDependency */,
+				42077C4E1ED8E30C00FF8575 /* PBXTargetDependency */,
 			);
 			name = watchOJ;
 			productName = watchOJ;
@@ -331,6 +548,20 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = lisa;
 				TargetAttributes = {
+					42077C431ED8E30B00FF8575 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					42077C571ED8E36A00FF8575 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					42077C6D1ED8E36B00FF8575 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 42077C571ED8E36A00FF8575;
+					};
+					42077C781ED8E36B00FF8575 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 42077C571ED8E36A00FF8575;
+					};
 					42809D9E1ED2590900AD14F4 = {
 						CreatedOnToolsVersion = 9.0;
 					};
@@ -368,11 +599,47 @@
 				42809DC11ED2590900AD14F4 /* watchOJUITests */,
 				42809DCA1ED2590900AD14F4 /* watchOJ WatchKit App */,
 				42809DD91ED2590A00AD14F4 /* watchOJ WatchKit Extension */,
+				42077C431ED8E30B00FF8575 /* LisaShare */,
+				42077C571ED8E36A00FF8575 /* LisaTV */,
+				42077C6D1ED8E36B00FF8575 /* LisaTVTests */,
+				42077C781ED8E36B00FF8575 /* LisaTVUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		42077C421ED8E30B00FF8575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42077C4B1ED8E30C00FF8575 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C561ED8E36A00FF8575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42077C5E1ED8E36A00FF8575 /* art.scnassets in Resources */,
+				42077C661ED8E36A00FF8575 /* Assets.xcassets in Resources */,
+				42077C641ED8E36A00FF8575 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C6C1ED8E36B00FF8575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C771ED8E36B00FF8575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42809D9D1ED2590900AD14F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,6 +684,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		42077C401ED8E30B00FF8575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42077C481ED8E30C00FF8575 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C541ED8E36A00FF8575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42077C611ED8E36A00FF8575 /* GameViewController.m in Sources */,
+				42077C691ED8E36A00FF8575 /* main.m in Sources */,
+				42077C5C1ED8E36A00FF8575 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C6A1ED8E36B00FF8575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42077C731ED8E36B00FF8575 /* LisaTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42077C751ED8E36B00FF8575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42077C7E1ED8E36B00FF8575 /* LisaTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42809D9B1ED2590900AD14F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,6 +757,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		42077C4E1ED8E30C00FF8575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42077C431ED8E30B00FF8575 /* LisaShare */;
+			targetProxy = 42077C4D1ED8E30C00FF8575 /* PBXContainerItemProxy */;
+		};
+		42077C701ED8E36B00FF8575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42077C571ED8E36A00FF8575 /* LisaTV */;
+			targetProxy = 42077C6F1ED8E36B00FF8575 /* PBXContainerItemProxy */;
+		};
+		42077C7B1ED8E36B00FF8575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42077C571ED8E36A00FF8575 /* LisaTV */;
+			targetProxy = 42077C7A1ED8E36B00FF8575 /* PBXContainerItemProxy */;
+		};
 		42809DB91ED2590900AD14F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 42809D9E1ED2590900AD14F4 /* watchOJ */;
@@ -479,6 +795,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		42077C491ED8E30C00FF8575 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42077C4A1ED8E30C00FF8575 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		42077C621ED8E36A00FF8575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42077C631ED8E36A00FF8575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		42809DA81ED2590900AD14F4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -506,6 +838,126 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		42077C501ED8E30C00FF8575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6886E74LFB;
+				INFOPLIST_FILE = LisaShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.watchOJ.LisaShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42077C511ED8E30C00FF8575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6886E74LFB;
+				INFOPLIST_FILE = LisaShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.watchOJ.LisaShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42077C811ED8E36B00FF8575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6886E74LFB;
+				INFOPLIST_FILE = LisaTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.LisaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		42077C821ED8E36B00FF8575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6886E74LFB;
+				INFOPLIST_FILE = LisaTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.LisaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		42077C841ED8E36B00FF8575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6886E74LFB;
+				INFOPLIST_FILE = LisaTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.LisaTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisaTV.app/LisaTV";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		42077C851ED8E36B00FF8575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6886E74LFB;
+				INFOPLIST_FILE = LisaTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.LisaTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisaTV.app/LisaTV";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		42077C871ED8E36B00FF8575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6886E74LFB;
+				INFOPLIST_FILE = LisaTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.LisaTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = LisaTV;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		42077C881ED8E36B00FF8575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6886E74LFB;
+				INFOPLIST_FILE = LisaTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.LisaTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = LisaTV;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 		42809DEC1ED2590A00AD14F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -753,6 +1205,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		42077C521ED8E30C00FF8575 /* Build configuration list for PBXNativeTarget "LisaShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42077C501ED8E30C00FF8575 /* Debug */,
+				42077C511ED8E30C00FF8575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42077C801ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42077C811ED8E36B00FF8575 /* Debug */,
+				42077C821ED8E36B00FF8575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42077C831ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42077C841ED8E36B00FF8575 /* Debug */,
+				42077C851ED8E36B00FF8575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42077C861ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42077C871ED8E36B00FF8575 /* Debug */,
+				42077C881ED8E36B00FF8575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		42809D9A1ED2590900AD14F4 /* Build configuration list for PBXProject "watchOJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -769,6 +1253,7 @@
 				42809DF01ED2590A00AD14F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42809DF21ED2590A00AD14F4 /* Build configuration list for PBXNativeTarget "watchOJ WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -777,6 +1262,7 @@
 				42809DF41ED2590A00AD14F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42809DF61ED2590A00AD14F4 /* Build configuration list for PBXNativeTarget "watchOJ" */ = {
 			isa = XCConfigurationList;
@@ -785,6 +1271,7 @@
 				42809DF81ED2590A00AD14F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42809DF91ED2590A00AD14F4 /* Build configuration list for PBXNativeTarget "watchOJTests" */ = {
 			isa = XCConfigurationList;
@@ -793,6 +1280,7 @@
 				42809DFB1ED2590A00AD14F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42809DFC1ED2590A00AD14F4 /* Build configuration list for PBXNativeTarget "watchOJUITests" */ = {
 			isa = XCConfigurationList;
@@ -801,6 +1289,7 @@
 				42809DFE1ED2590A00AD14F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
