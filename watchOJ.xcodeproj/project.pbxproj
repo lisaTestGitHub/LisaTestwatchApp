@@ -1126,7 +1126,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6886E74LFB;
+				DEVELOPMENT_TEAM = ZGTYB8SRR9;
 				INFOPLIST_FILE = watchOJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.watchOJ;
@@ -1139,7 +1139,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6886E74LFB;
+				DEVELOPMENT_TEAM = ZGTYB8SRR9;
 				INFOPLIST_FILE = watchOJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.qa.Lisa.watchOJ;
@@ -1212,6 +1212,7 @@
 				42077C511ED8E30C00FF8575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42077C801ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTV" */ = {
 			isa = XCConfigurationList;
@@ -1220,6 +1221,7 @@
 				42077C821ED8E36B00FF8575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42077C831ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTVTests" */ = {
 			isa = XCConfigurationList;
@@ -1228,6 +1230,7 @@
 				42077C851ED8E36B00FF8575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42077C861ED8E36B00FF8575 /* Build configuration list for PBXNativeTarget "LisaTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -1236,6 +1239,7 @@
 				42077C881ED8E36B00FF8575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42809D9A1ED2590900AD14F4 /* Build configuration list for PBXProject "watchOJ" */ = {
 			isa = XCConfigurationList;
